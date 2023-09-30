@@ -41,7 +41,10 @@ img {
 /*HEADER*/
 
 .top-sec {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav-content {
@@ -134,6 +137,7 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link-two:hover {
@@ -165,6 +169,7 @@ img {
 /*SECTION HERO IMAGE*/
 
 .hero-image {
+    max-width: 1440px;
     background-color: #2E2F42;
     padding: 188px 0;
     background-image: 
@@ -249,6 +254,7 @@ img {
 }
 
 .icon-top {
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,10 +264,6 @@ img {
     width: 264px;
     height: 112px;
     flex-shrink: 0;
-}
-
-.svg-no-anima {
-    
 }
 
 .text-card {
@@ -339,6 +341,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-soc:hover {
@@ -443,6 +446,19 @@ img {
 }
 
 .text-foot {
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.menu-soc-link-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.text-foot-two {
+    font-weight: 500;
     color:#F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
