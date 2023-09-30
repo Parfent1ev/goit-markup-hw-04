@@ -355,7 +355,7 @@ img {
     background-color: #404bbf;
 }
 
-.icon-soc:focus {
+.icon-soc :focus {
     background-color: #404bbf;
 }
 
@@ -464,6 +464,13 @@ img {
     max-width: 264px;
 }
 
+.foot-soc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .menu-soc-link-footer {
     display: flex;
     justify-content: center;
@@ -472,9 +479,12 @@ img {
 
 .text-foot-two {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     color:#ffffff;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 
 .para {
@@ -482,7 +492,7 @@ img {
 }
 
 .icon-soc-foot  {
-        width: 100%;
+    width: 100%;
     height: 100%;
     background-color: #4D5AE5;
     border-radius: 50%;
